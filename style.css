@@ -7,7 +7,6 @@ html, body {
 #sad{   
     font-size: 10em;
     z-index: -1;
-
 } 
 
 #tear {
@@ -15,16 +14,14 @@ html, body {
     font-size: 5em;
     margin-top: -380px;
     margin-left: 120px;
-    
     animation: crying 2s  infinite; 
 } 
 
 @keyframes crying {
     from {
- 
+        
     }
     to {
         transform:translate(20px,80px);
-      
     }
 } 
